@@ -8,6 +8,10 @@ public class FlySpace {
 	private int[] boundariesManjaKrajnja = {40,40,40};
 	
 	FlySpace space = new FlySpace(boundariesVecaPocetna, boundariesVecaKrajnja, boundariesManjaPocetna, boundariesManjaKrajnja){
+		this.boundariesManjaKrajnja = boundariesManjaKrajnja;
+		this.boundariesManjaPocetna = boundariesManja;
+		this.boundariesVecaKrajnja = boundariesVecaKrajnja;
+		this.boundariesVecaPocetna = boundariesVecaPocetna;
 		
 	}
 }

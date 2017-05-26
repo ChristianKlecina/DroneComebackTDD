@@ -176,3 +176,8 @@ CompilationAction 1495795549363 FlySpace.java
 CompilationAction 1495795549723 FlySpaceTest.java
 RefactoringAction 1495795562926 FlySpace.java ADD FlySpace space FIELD
 EditAction 1495795648973 FlySpace.java 394 0 0 0
+CompilationAction 1495795652526 FlySpace.java
+CompilationAction 1495795652555 FlySpaceTest.java
+CompilationAction 1495795800951 FlySpace.java
+CompilationAction 1495795801169 FlySpace.java
+EditAction 1495795842819 FlySpace.java 611 0 0 0
