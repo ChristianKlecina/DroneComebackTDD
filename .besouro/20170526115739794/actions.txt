@@ -163,3 +163,16 @@ CompilationAction 1495795461165 FlySpaceTest.java
 CompilationAction 1495795461166 FlySpaceTest.java
 CompilationAction 1495795461393 FlySpaceTest.java
 EditAction 1495795469485 FlySpace.java 87 0 0 0
+CompilationAction 1495795472817 FlySpace.java
+CompilationAction 1495795472819 FlySpaceTest.java
+RefactoringAction 1495795489651 FlySpace.java RENAME boundariesVeca=>int FIELD
+RefactoringAction 1495795509213 FlySpace.java ADD int FIELD
+RefactoringAction 1495795516743 FlySpace.java RENAME boundariesVecaPocetna/2=>int FIELD
+RefactoringAction 1495795526274 FlySpace.java ADD int FIELD
+RefactoringAction 1495795530285 FlySpace.java RENAME boundariesVecaPocetna/2=>int FIELD
+RefactoringAction 1495795538308 FlySpace.java ADD int FIELD
+RefactoringAction 1495795543819 FlySpace.java RENAME boundariesManjaPocetna/2=>int FIELD
+CompilationAction 1495795549363 FlySpace.java
+CompilationAction 1495795549723 FlySpaceTest.java
+RefactoringAction 1495795562926 FlySpace.java ADD FlySpace space FIELD
+EditAction 1495795648973 FlySpace.java 394 0 0 0
