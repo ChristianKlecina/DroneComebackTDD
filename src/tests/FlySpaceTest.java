@@ -10,7 +10,9 @@ public class FlySpaceTest {
 	
 	@Test
 	public void nullTest(){
-		FlySpace fly = new FlySpace();
+		Cube veca = new Cube(0, 50);
+		Cube manja = new Cube(10, 40);
+		FlySpace fly = new FlySpace(Cube manja, Cube veca);
 		assertNotNull(fly);
 	}
 	

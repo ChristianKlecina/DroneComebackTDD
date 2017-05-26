@@ -51,3 +51,14 @@ RefactoringAction 1495794655549 FlySpaceTest.java ADD void nullTest FIELD
 RefactoringAction 1495794656583 FlySpaceTest.java RENAME nullTest=>void nullTest() METHOD
 RefactoringAction 1495794725818 FlySpaceTest.java ADD import org.junit.Assert.assertNotNull IMPORT
 EditAction 1495794730717 FlySpaceTest.java 253 1 2 1
+CompilationAction 1495794733968 FlySpaceTest.java
+CompilationAction 1495794832332 FlySpaceTest.java
+CompilationAction 1495794832541 FlySpaceTest.java
+CompilationAction 1495794832542 FlySpaceTest.java
+CompilationAction 1495794832543 FlySpaceTest.java
+CompilationAction 1495794832544 FlySpaceTest.java
+RefactoringAction 1495794881904 FlySpace.java ADD int boundaries FIELD
+RefactoringAction 1495794884914 FlySpace.java RENAME boundaries=>int boundariesVeca FIELD
+RefactoringAction 1495794988365 Cube.java RENAME Cube(int, int)=>Cube(int METHOD
+RefactoringAction 1495794993388 Cube.java RENAME Cube(int=>Cube(int METHOD
+EditAction 1495795029047 CubeTest.java 246 1 0 0
