@@ -7,9 +7,9 @@ public class FlySpace {
 	private int[] boundariesManjaPocetna = {10,10,10};
 	private int[] boundariesManjaKrajnja = {40,40,40};
 	
-	FlySpace space = new FlySpace(boundariesVecaPocetna, boundariesVecaKrajnja, boundariesManjaPocetna, boundariesManjaKrajnja){
+	public FlySpace (int[] boundariesVecaPocetna, int[] boundariesVecaKrajnja, int[] boundariesManjaPocetna, int[] boundariesManjaKrajnja){
 		this.boundariesManjaKrajnja = boundariesManjaKrajnja;
-		this.boundariesManjaPocetna = boundariesManja;
+		this.boundariesManjaPocetna = boundariesManjaPocetna;
 		this.boundariesVecaKrajnja = boundariesVecaKrajnja;
 		this.boundariesVecaPocetna = boundariesVecaPocetna;
 		
