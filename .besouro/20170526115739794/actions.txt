@@ -1,0 +1,9 @@
+FileOpenedAction 1495792660347 Cube.java 44 0 0 0
+RefactoringAction 1495793553401 CubeTest.java ADD void notNull FIELD
+RefactoringAction 1495793557915 CubeTest.java RENAME notNull=>void notNull() METHOD
+RefactoringAction 1495793670152 CubeTest.java ADD import org.junit.Test IMPORT
+RefactoringAction 1495793710312 CubeTest.java ADD import junit.framework.Assert IMPORT
+RefactoringAction 1495793733386 CubeTest.java RENAME import junit.framework.Assert=>import org.junit.Assert.* IMPORT
+RefactoringAction 1495793848072 Cube.java ADD int FIELD
+RefactoringAction 1495793860631 Cube.java ADD Cube() METHOD
+EditAction 1495793867299 CubeTest.java 206 1 2 1
