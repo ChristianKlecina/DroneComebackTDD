@@ -10,3 +10,10 @@ EditAction 1495793867299 CubeTest.java 206 1 2 1
 CompilationAction 1495793870744 CubeTest.java
 RefactoringAction 1495793881750 CubeTest.java ADD import drone.Cube IMPORT
 EditAction 1495793889587 Cube.java 118 1 0 0
+CompilationAction 1495793894565 CubeTest.java
+UnitTestCaseAction 1495793904222 CubeTest.java OK
+UnitTestSessionAction 1495793904235 CubeTest OK
+RefactoringAction 1495794042715 Cube.java RENAME boundaries=>int FIELD
+RefactoringAction 1495794046731 Cube.java ADD int FIELD
+RefactoringAction 1495794050748 Cube.java RENAME boundariesEnd/2=>int FIELD
+EditAction 1495794054509 Cube.java 172 1 0 0

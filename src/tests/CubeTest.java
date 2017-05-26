@@ -2,6 +2,8 @@ package tests;
 
 import org.junit.Test;
 
+import drone.Cube;
+
 import static org.junit.Assert.*;
 
 public class CubeTest {
