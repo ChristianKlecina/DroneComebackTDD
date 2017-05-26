@@ -11,7 +11,7 @@ public class CubeTest {
 	@Test
 	public void notNull(){
 		
-		Cube cube = new Cube();
+		Cube cube = new Cube(0, 50);
 		assertNotNull(cube);
 	}
 

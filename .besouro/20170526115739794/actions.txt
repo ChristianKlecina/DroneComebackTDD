@@ -20,3 +20,27 @@ EditAction 1495794054509 Cube.java 172 1 0 0
 RefactoringAction 1495794072353 Cube.java ADD int FIELD
 RefactoringAction 1495794072357 Cube.java ADD int FIELD
 EditAction 1495794083519 Cube.java 269 1 0 0
+CompilationAction 1495794087494 Cube.java
+CompilationAction 1495794087495 Cube.java
+RefactoringAction 1495794091486 Cube.java RENAME boundariesEnd/2=>int FIELD
+RefactoringAction 1495794093510 Cube.java RENAME boundariesStart/2=>int FIELD
+RefactoringAction 1495794096524 Cube.java RENAME boundariesEnd=>int FIELD
+RefactoringAction 1495794100540 Cube.java RENAME boundariesEndBig=>int FIELD
+RefactoringAction 1495794103056 Cube.java RENAME boundariesStartBig=>int FIELD
+RefactoringAction 1495794104084 Cube.java RENAME boundariesStart/2=>int FIELD
+RefactoringAction 1495794107100 Cube.java RENAME boundariesEndSmall=>int FIELD
+RefactoringAction 1495794108615 Cube.java RENAME boundariesStart=>int FIELD
+CompilationAction 1495794109357 Cube.java
+CompilationAction 1495794109358 Cube.java
+RefactoringAction 1495794245716 Cube.java ADD int End FIELD
+RefactoringAction 1495794247728 Cube.java RENAME End=>int end FIELD
+RefactoringAction 1495794252739 Cube.java RENAME end=>int endCoordinates FIELD
+RefactoringAction 1495794267262 Cube.java ADD int size FIELD
+RefactoringAction 1495794281283 Cube.java RENAME Cube()=>Cube(int) METHOD
+RefactoringAction 1495794285323 Cube.java RENAME Cube(int)=>Cube(int, int) METHOD
+RefactoringAction 1495794286870 Cube.java RENAME Cube(int, int)=>Cube(int, int, int) METHOD
+CompilationAction 1495794403944 CubeTest.java
+RefactoringAction 1495794435182 Cube.java RENAME Cube(int, int, int)=>Cube(int, int) METHOD
+RefactoringAction 1495794437204 Cube.java REMOVE size FIELD
+CompilationAction 1495794437734 CubeTest.java
+EditAction 1495794440129 CubeTest.java 233 1 2 1
