@@ -7,3 +7,6 @@ RefactoringAction 1495793733386 CubeTest.java RENAME import junit.framework.Asse
 RefactoringAction 1495793848072 Cube.java ADD int FIELD
 RefactoringAction 1495793860631 Cube.java ADD Cube() METHOD
 EditAction 1495793867299 CubeTest.java 206 1 2 1
+CompilationAction 1495793870744 CubeTest.java
+RefactoringAction 1495793881750 CubeTest.java ADD import drone.Cube IMPORT
+EditAction 1495793889587 Cube.java 118 1 0 0
