@@ -18,7 +18,6 @@ public class FlySpaceTest {
 		Cube veca = new Cube(pocetna, krajnja);
 		Cube manja = new Cube(pocetna, krajnja);
 		
-		assertNotNull(fly);
 	}
 	
 	
