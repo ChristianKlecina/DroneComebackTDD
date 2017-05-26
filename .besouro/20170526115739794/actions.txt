@@ -17,3 +17,6 @@ RefactoringAction 1495794042715 Cube.java RENAME boundaries=>int FIELD
 RefactoringAction 1495794046731 Cube.java ADD int FIELD
 RefactoringAction 1495794050748 Cube.java RENAME boundariesEnd/2=>int FIELD
 EditAction 1495794054509 Cube.java 172 1 0 0
+RefactoringAction 1495794072353 Cube.java ADD int FIELD
+RefactoringAction 1495794072357 Cube.java ADD int FIELD
+EditAction 1495794083519 Cube.java 269 1 0 0
