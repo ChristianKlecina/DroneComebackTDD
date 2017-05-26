@@ -44,3 +44,10 @@ RefactoringAction 1495794435182 Cube.java RENAME Cube(int, int, int)=>Cube(int, 
 RefactoringAction 1495794437204 Cube.java REMOVE size FIELD
 CompilationAction 1495794437734 CubeTest.java
 EditAction 1495794440129 CubeTest.java 233 1 2 1
+UnitTestCaseAction 1495794445811 CubeTest.java OK
+UnitTestSessionAction 1495794445812 CubeTest OK
+RefactoringAction 1495794549965 FlySpaceTest.java ADD import org.junit.Test IMPORT
+RefactoringAction 1495794655549 FlySpaceTest.java ADD void nullTest FIELD
+RefactoringAction 1495794656583 FlySpaceTest.java RENAME nullTest=>void nullTest() METHOD
+RefactoringAction 1495794725818 FlySpaceTest.java ADD import org.junit.Assert.assertNotNull IMPORT
+EditAction 1495794730717 FlySpaceTest.java 253 1 2 1
