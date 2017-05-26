@@ -224,3 +224,6 @@ CompilationAction 1495795922551 FlySpace.java
 CompilationAction 1495795922871 FlySpace.java
 CompilationAction 1495795922873 FlySpaceTest.java
 EditAction 1495795930258 FlySpace.java 629 1 4 0
+RefactoringAction 1495795954027 FlySpaceTest.java ADD import drone.FlySpace IMPORT
+CompilationAction 1495796038453 FlySpaceTest.java
+CompilationAction 1495796038698 FlySpaceTest.java

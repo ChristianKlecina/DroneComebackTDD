@@ -1,5 +1,6 @@
 package drone;
 
+
 public class FlySpace {
 	
 	private int[] boundariesVecaPocetna = {0,0,0};

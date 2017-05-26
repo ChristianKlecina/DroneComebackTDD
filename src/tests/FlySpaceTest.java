@@ -5,6 +5,7 @@ import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 
 import drone.Cube;
+import drone.FlySpace;
 
 public class FlySpaceTest {
 	
@@ -16,7 +17,7 @@ public class FlySpaceTest {
 		
 		Cube veca = new Cube(pocetna, krajnja);
 		Cube manja = new Cube(pocetna, krajnja);
-		FlySpace fly = new FlySpace(manja, veca);
+		
 		assertNotNull(fly);
 	}
 	
