@@ -1,18 +1,29 @@
 package drone;
 
-
 public class FlySpace {
+
+	private Cube outerCube;
+	private Cube innerCube;
 	
-	private int[] boundariesVecaPocetna = {0,0,0};
-	private int[] boundariesVecaKrajnja = {50,50,50};
-	private int[] boundariesManjaPocetna = {10,10,10};
-	private int[] boundariesManjaKrajnja = {40,40,40};
-	
-	public FlySpace (int[] boundariesVecaPocetna, int[] boundariesVecaKrajnja, int[] boundariesManjaPocetna, int[] boundariesManjaKrajnja){
-		this.boundariesManjaKrajnja = boundariesManjaKrajnja;
-		this.boundariesManjaPocetna = boundariesManjaPocetna;
-		this.boundariesVecaKrajnja = boundariesVecaKrajnja;
-		this.boundariesVecaPocetna = boundariesVecaPocetna;
-		
+	public FlySpace(Cube outer, Cube inner) {
+		outerCube = outer;
+		innerCube = inner;
 	}
+
+	public Cube getOuterCube() {
+		return outerCube;
+	}
+
+	public Cube getInnerCube() {
+		return innerCube;
+	}
+
+	public void setOuterCube(Cube outerCube) {
+		this.outerCube = outerCube;
+	}
+
+	public void setInnerCube(Cube innerCube) {
+		this.innerCube = innerCube;
+	}
+	
 }
